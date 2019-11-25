@@ -1,0 +1,13 @@
+node_modules
+lib
+es
+dist
+npm-debug.log
+lerna-debug.log
+yarn-error.log
+# yarn manages this, not npm
+package-lock.json
+packages/**/package-lock.json
+**/test-types/*.test.js
+**/tsr-declarations.js
+.idea/
